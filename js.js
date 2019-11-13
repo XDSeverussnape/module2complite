@@ -8,7 +8,7 @@ const p = document.getElementById("p");
 
 while(attempts < 3) {
   UserInput = prompt('Введите пароль');
-  let arr = Numbers.indexOf('UserInput');
+  let arr = Numbers.includes('UserInput');
 if ( arr = true) {
   alert('Congratulations');
   break;
